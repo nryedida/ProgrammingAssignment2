@@ -33,7 +33,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
-    ## to insert my changes
     cachedMatrix <- x$getcachedmatrix()
     if(!is.null(cachedMatrix)) {
         message("getting cached data")
